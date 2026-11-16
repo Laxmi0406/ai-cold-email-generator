@@ -71,3 +71,15 @@ These are explainable indicators, not a proprietary ATS score, hiring probabilit
 ## Responsible use
 
 AI suggestions can be inaccurate. Verify every recommendation and never add skills, experience, or achievements you cannot substantiate.
+
+
+## Run tests
+
+Install the development dependencies and run the test suite:
+
+```bash
+pip install -r requirements-dev.txt
+pytest -q
+```
+
+GitHub Actions runs these tests automatically on pushes and pull requests to `main`.
